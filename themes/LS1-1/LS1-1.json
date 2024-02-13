@@ -1,0 +1,239 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width"
+    },
+    "order" : [
+      "box2",
+      "holle",
+      "icon",
+      "time",
+      "day",
+      "day1",
+      "batt",
+      "🌟",
+      "1"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "holle" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "280",
+          "x" : "55",
+          "width" : "60",
+          "height" : "100"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleAspectFit",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "hello.png",
+        "type" : "UIImageView",
+        "actions" : "none"
+      },
+      "time" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "337",
+          "x" : "58",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[paddedhour]:[minute]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "21",
+        "fontName" : "PingFangHK-Semibold",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "day" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "360",
+          "x" : "78",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[day]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "12",
+        "fontName" : "HelveticaNeue-Bold",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      },
+      "box2" : {
+        "scale" : "0",
+        "borderColor" : "rgba(58, 61, 72, 1.00)",
+        "rotate" : "0",
+        "actions" : "none",
+        "frame" : {
+          "y" : "305",
+          "x" : "45",
+          "width" : "110",
+          "height" : "109"
+        },
+        "backgroundColor" : "rgba(0, 0, 0, 0.55)",
+        "blurAlpha" : "0",
+        "type" : "UIView",
+        "animation" : "none",
+        "gradientImage" : "none",
+        "borderWidth" : "0",
+        "alpha" : "1",
+        "children" : {
+
+        },
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "cornerRadius" : "15",
+        "blurColor" : "dark"
+      },
+      "🌟" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "371",
+          "x" : "58",
+          "width" : "17",
+          "height" : "17"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleAspectFit",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "hbimg.png",
+        "type" : "UIImageView",
+        "actions" : "none"
+      },
+      "1" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "390",
+          "x" : "59",
+          "width" : "16",
+          "height" : "15"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleAspectFit",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "exclamationmark.circle@3x.png",
+        "type" : "UIImageView",
+        "actions" : "none"
+      },
+      "batt" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentCenter",
+        "frame" : {
+          "y" : "886",
+          "x" : "140",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "BATT : [batterypercent] Perc",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "9",
+        "fontName" : "AvenirNext-Bold",
+        "textShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "fontNameAttr" : "none"
+      },
+      "icon" : {
+        "pauseImage" : "none",
+        "frame" : {
+          "y" : "273",
+          "x" : "121",
+          "width" : "22",
+          "height" : "110"
+        },
+        "isAlbumArt" : "0",
+        "contentMode" : "scaleAspectFit",
+        "animation" : "none",
+        "cornerRadius" : "0",
+        "imageURL" : "93.png",
+        "type" : "UIImageView",
+        "actions" : "none"
+      },
+      "day1" : {
+        "borderColor" : "rgba(255,255,255,1)",
+        "textStyle" : "none",
+        "textAlignment" : "NSTextAlignmentLeft",
+        "frame" : {
+          "y" : "378",
+          "x" : "78",
+          "width" : "150",
+          "height" : "40"
+        },
+        "kerning" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "dataAttr" : "none",
+        "textColor" : "rgba(255,255,255,1.0)",
+        "type" : "UILabel",
+        "numberOfLines" : "1",
+        "data" : "[date]th [month]",
+        "borderWidth" : "0",
+        "gradientImage" : "none",
+        "fontSizeAttr" : "none",
+        "fontSize" : "9",
+        "fontName" : "Helvetica-Bold",
+        "textShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "fontNameAttr" : "none"
+      }
+    }
+  }
+}
