@@ -1,0 +1,1947 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height",
+      "userInteractionEnabled" : "NO",
+      "x" : "0"
+    },
+    "order" : [
+      "NeoFetch_Window",
+      "Photo_Window",
+      "Dock",
+      "Menu_Window",
+      "User_Information",
+      "APPACT"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "NeoFetch_Window" : {
+        "boxShadow" : {
+          "y" : "0",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "0"
+        },
+        "blurColor" : "dark",
+        "frame" : {
+          "y" : "435",
+          "x" : "center",
+          "width" : "340",
+          "height" : "195"
+        },
+        "showWhenCharging" : "NO",
+        "borderWidth" : "5",
+        "backgroundColor" : "rgba(30, 30, 30, 0.30)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "mobile@_Info" : {
+            "textShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "40",
+              "x" : "196",
+              "width" : "80",
+              "height" : "8"
+            },
+            "fontName" : "VT323-Regular.ttf",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(202, 202, 202, 1.00)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "textAlignment" : "NSTextAlignmentLeft",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "10",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "user",
+            "numberOfLines" : "1"
+          },
+          "Neofetch_Window_Taskbar" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "borderColor" : "rgba(255,255,255,0)",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "340",
+              "height" : "30"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(30, 30, 30, 1.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "NeoFetch_Taskbar_Description" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "10",
+                  "width" : "340",
+                  "height" : "30"
+                },
+                "fontName" : "HouschkaRoundedBold.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "9",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "~terminal\/user\/neofetch",
+                "numberOfLines" : "1"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "NeoFetch_Taskbar_Description",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "animation" : "none",
+            "userInteraction" : "YES",
+            "blurColor" : "dark"
+          },
+          "NeoFetch_Image" : {
+            "pauseImage" : "none",
+            "frame" : {
+              "y" : "14",
+              "x" : "5",
+              "width" : "340",
+              "height" : "195"
+            },
+            "isAlbumArt" : "0",
+            "contentMode" : "scaleAspectFit",
+            "maskURL" : "none",
+            "cornerRadius" : "0",
+            "animation" : "none",
+            "imageURL" : "NeofetchGeneric.png",
+            "type" : "UIImageView",
+            "actions" : "none",
+            "imageFolder" : "none"
+          },
+          "NeoFetch_User_Data" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "animation" : "none",
+            "frame" : {
+              "y" : "67",
+              "x" : "245",
+              "width" : "80",
+              "height" : "87"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Kernal_Info" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "17",
+                  "x" : "0",
+                  "width" : "80",
+                  "height" : "8"
+                },
+                "fontName" : "VT323-Regular.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(202, 202, 202, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "xx.x.x",
+                "numberOfLines" : "1"
+              },
+              "OS_Theme_Info" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "79",
+                  "x" : "0",
+                  "width" : "80",
+                  "height" : "8"
+                },
+                "fontName" : "VT323-Regular.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(202, 202, 202, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "Theme Name",
+                "numberOfLines" : "1"
+              },
+              "CPU_Info" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "44",
+                  "x" : "0",
+                  "width" : "80",
+                  "height" : "8"
+                },
+                "fontName" : "VT323-Regular.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(202, 202, 202, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "Apple A00 Chip",
+                "numberOfLines" : "1"
+              },
+              "Host_Info" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "9",
+                  "x" : "0",
+                  "width" : "80",
+                  "height" : "8"
+                },
+                "fontName" : "VT323-Regular.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(202, 202, 202, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "iPhone Model Here",
+                "numberOfLines" : "1"
+              },
+              "Packages_Info" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "35",
+                  "x" : "0",
+                  "width" : "80",
+                  "height" : "8"
+                },
+                "fontName" : "VT323-Regular.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(202, 202, 202, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "00 (dpkg)",
+                "numberOfLines" : "1"
+              },
+              "OS_Info" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "80",
+                  "height" : "8"
+                },
+                "fontName" : "VT323-Regular.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(202, 202, 202, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "iOS xx.x.x",
+                "numberOfLines" : "1"
+              },
+              "Jailbreak_Info" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "26",
+                  "x" : "0",
+                  "width" : "80",
+                  "height" : "8"
+                },
+                "fontName" : "VT323-Regular.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(202, 202, 202, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "Jailbreak v.0.0.0",
+                "numberOfLines" : "1"
+              },
+              "GPU_Info" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "52",
+                  "x" : "0",
+                  "width" : "80",
+                  "height" : "8"
+                },
+                "fontName" : "VT323-Regular.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(202, 202, 202, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "Apple Designed GPU",
+                "numberOfLines" : "1"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "OS_Info,Host_Info,Kernal_Info,Jailbreak_Info,Packages_Info,CPU_Info,GPU_Info,OS_Theme_Info",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "actions" : "none",
+            "userInteraction" : "YES",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "blurColor" : "dark"
+          }
+        },
+        "blurAlpha" : "5",
+        "cornerRadius" : "9",
+        "type" : "UIView",
+        "childorder" : "NeoFetch_Image,Neofetch_Window_Taskbar,NeoFetch_User_Data,mobile@_Info",
+        "rotate" : "0",
+        "blurIntensity" : "5",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(30, 30, 30, 1.00)",
+        "userInteraction" : "YES",
+        "actions" : "none",
+        "cutWithView" : "none",
+        "animation" : "none"
+      },
+      "User_Information" : {
+        "boxShadow" : {
+          "y" : "0",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "0"
+        },
+        "blurColor" : "dark",
+        "frame" : {
+          "y" : "345",
+          "x" : "45",
+          "width" : "190",
+          "height" : "70"
+        },
+        "showWhenCharging" : "NO",
+        "borderWidth" : "5",
+        "backgroundColor" : "rgba(30, 30, 30, 0.30)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "Music_Info_Container" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "48",
+              "x" : "10",
+              "width" : "115",
+              "height" : "12"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Music_Info_Text" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "15",
+                  "width" : "100",
+                  "height" : "12"
+                },
+                "fontName" : "HouschkaRoundedBold.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[musicTitle]",
+                "numberOfLines" : "1"
+              },
+              "Music_Icon" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "12",
+                  "height" : "12"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "maskURL" : "none",
+                "cornerRadius" : "0",
+                "animation" : "none",
+                "imageURL" : "MusicGeneric.png",
+                "type" : "UIImageView",
+                "actions" : "none",
+                "imageFolder" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "Music_Icon,Music_Info_Text",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "userInteraction" : "YES",
+            "actions" : "animation",
+            "cutWithView" : "none",
+            "animation" : "none"
+          },
+          "Avatar_Container" : {
+            "boxShadow" : {
+              "y" : "0",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "0"
+            },
+            "animation" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "130",
+              "width" : "50",
+              "height" : "50"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "2",
+            "backgroundColor" : "rgba(255, 255, 255, 0.10)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Avatar_Image" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "50",
+                  "height" : "50"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "maskURL" : "none",
+                "cornerRadius" : "0",
+                "animation" : "none",
+                "imageURL" : "AvatarPlaceholder.png",
+                "type" : "UIImageView",
+                "actions" : "none",
+                "imageFolder" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "25",
+            "type" : "UIView",
+            "childorder" : "Avatar_Image",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(48, 48, 48, 1.00)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "blurColor" : "dark"
+          },
+          "Hello_Image" : {
+            "pauseImage" : "none",
+            "frame" : {
+              "y" : "-5",
+              "x" : "10",
+              "width" : "50",
+              "height" : "50"
+            },
+            "isAlbumArt" : "0",
+            "contentMode" : "scaleAspectFit",
+            "maskURL" : "none",
+            "cornerRadius" : "0",
+            "animation" : "none",
+            "imageURL" : "hello.png",
+            "type" : "UIImageView",
+            "actions" : "none",
+            "imageFolder" : "none"
+          },
+          "Greeting_Message_Container" : {
+            "boxShadow" : {
+              "y" : "0",
+              "radius" : "0",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "animation" : "none",
+            "frame" : {
+              "y" : "32",
+              "x" : "10",
+              "width" : "115",
+              "height" : "12"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Greeting_Icon" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "12",
+                  "height" : "12"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "maskURL" : "none",
+                "cornerRadius" : "0",
+                "animation" : "none",
+                "imageURL" : "AvatarBasic.png",
+                "type" : "UIImageView",
+                "actions" : "none",
+                "imageFolder" : "none"
+              },
+              "Greeting_Text" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "15",
+                  "width" : "100",
+                  "height" : "12"
+                },
+                "fontName" : "HouschkaRoundedBold.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255, 254, 255, 1.00)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "10",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "[timeofday], user.",
+                "numberOfLines" : "1"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "Greeting_Icon,Greeting_Text",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "userInteraction" : "YES",
+            "actions" : "none",
+            "cutWithView" : "none",
+            "blurColor" : "dark"
+          }
+        },
+        "blurAlpha" : "5",
+        "cornerRadius" : "7",
+        "type" : "UIView",
+        "childorder" : "Hello_Image,Greeting_Message_Container,Music_Info_Container,Avatar_Container",
+        "rotate" : "0",
+        "blurIntensity" : "5",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "actions" : "none",
+        "cutWithView" : "none",
+        "animation" : "none",
+        "borderColor" : "rgba(30, 30, 30, 1.00)",
+        "userInteraction" : "YES"
+      },
+      "APPACT" : {
+        "boxShadow" : {
+          "y" : "3",
+          "radius" : "3",
+          "x" : "0",
+          "color" : "rgba(255, 255, 255, 0.00)"
+        },
+        "actions" : "none",
+        "frame" : {
+          "y" : "435",
+          "x" : "center",
+          "width" : "340",
+          "height" : "195"
+        },
+        "showWhenCharging" : "NO",
+        "borderWidth" : "0",
+        "backgroundColor" : "rgba(255,255,255,0)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "App_Shortcuts_Window" : {
+            "boxShadow" : {
+              "y" : "3",
+              "radius" : "3",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "340",
+              "height" : "195"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "5",
+            "backgroundColor" : "rgba(30, 30, 30, 0.30)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Shortcuts_App_Row_2" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "0"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "110",
+                  "x" : "center",
+                  "width" : "340",
+                  "height" : "80"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "App_3_1" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "badgeImage" : "none",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "180",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "ws.hbang.Terminal",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0"
+                  },
+                  "App_2_1" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "badgeImage" : "none",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "100",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.tigisoftware.Filza",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0"
+                  },
+                  "App_1_1" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "badgeImage" : "none",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "20",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "org.coolstar.SileoStore",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0"
+                  },
+                  "App_4_1" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "badgeImage" : "none",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "260",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.xiaomi.mihome",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0"
+                  }
+                },
+                "blurAlpha" : "0",
+                "cornerRadius" : "0",
+                "type" : "UIView",
+                "childorder" : "App_3_1,App_2_1,App_1_1,App_4_1",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "none",
+                "cutWithView" : "none",
+                "userInteraction" : "YES",
+                "borderColor" : "rgba(255,255,255,0)",
+                "animation" : "none"
+              },
+              "App_Shortcuts_Taskbar" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "0"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "0",
+                  "width" : "340",
+                  "height" : "30"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(30, 30, 30, 1.00)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "App_Shortcuts_Taskbar_Description" : {
+                    "textShadow" : {
+                      "y" : "3",
+                      "radius" : "3",
+                      "x" : "0",
+                      "color" : "rgba(0,0,0,0)"
+                    },
+                    "fontNameAttr" : "none",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "10",
+                      "width" : "340",
+                      "height" : "30"
+                    },
+                    "fontName" : "HouschkaRoundedBold.ttf",
+                    "fontColorAttr" : "none",
+                    "dataAttr" : "none",
+                    "textColor" : "rgba(255,255,255,1.0)",
+                    "borderWidth" : "0",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "textAlignment" : "NSTextAlignmentLeft",
+                    "type" : "UILabel",
+                    "alpha" : "1",
+                    "fontSize" : "9",
+                    "gradientImage" : "none",
+                    "fontSizeAttr" : "none",
+                    "textStyle" : "none",
+                    "kerning" : "0",
+                    "borderColor" : "rgba(255,255,255,1)",
+                    "data" : "~desktop\/user\/shortcuts",
+                    "numberOfLines" : "1"
+                  }
+                },
+                "blurAlpha" : "0",
+                "cornerRadius" : "0",
+                "type" : "UIView",
+                "childorder" : "App_Shortcuts_Taskbar_Description",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "none",
+                "cutWithView" : "none",
+                "animation" : "none",
+                "userInteraction" : "YES",
+                "borderColor" : "rgba(255,255,255,0)"
+              },
+              "Shortcuts_App_Row_1" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "0"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "30",
+                  "x" : "center",
+                  "width" : "340",
+                  "height" : "80"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+                "showWhenPlaying" : "NO",
+                "children" : {
+                  "App_2" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "100",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.apple.findmy",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0",
+                    "badgeImage" : "none"
+                  },
+                  "App_1" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "20",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.apple.Preferences",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0",
+                    "badgeImage" : "none"
+                  },
+                  "App_4" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "260",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.apple.mobilesafari",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0",
+                    "badgeImage" : "none"
+                  },
+                  "App_3" : {
+                    "badgeImageY" : "0",
+                    "badgeImageScale" : "1",
+                    "scale" : "0",
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "frame" : {
+                      "y" : "center",
+                      "x" : "180",
+                      "width" : "60",
+                      "height" : "60"
+                    },
+                    "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                    "backgroundColor" : "rgba(255,255,255,0)",
+                    "type" : "AppIcon",
+                    "bundleID" : "com.apple.mobilenotes",
+                    "alpha" : "1",
+                    "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0",
+                    "badgeImage" : "none"
+                  }
+                },
+                "blurAlpha" : "0",
+                "cornerRadius" : "0",
+                "type" : "UIView",
+                "childorder" : "App_1,App_2,App_3,App_4",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "none",
+                "cutWithView" : "none",
+                "userInteraction" : "YES",
+                "borderColor" : "rgba(255,255,255,0)",
+                "animation" : "none"
+              }
+            },
+            "blurAlpha" : "5",
+            "cornerRadius" : "9",
+            "type" : "UIView",
+            "childorder" : "App_Shortcuts_Taskbar,Shortcuts_App_Row_1,Shortcuts_App_Row_2",
+            "rotate" : "0",
+            "blurIntensity" : "5",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(30, 30, 30, 1.00)",
+            "userInteraction" : "YES",
+            "animation" : "none",
+            "actions" : "none",
+            "cutWithView" : "none"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "0",
+        "type" : "UIView",
+        "childorder" : "App_Shortcuts_Window",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "p",
+        "scale" : "0.8",
+        "gradientImage" : "none",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(255,255,255,0)",
+        "animation" : "none",
+        "userInteraction" : "YES",
+        "blurColor" : "dark"
+      },
+      "Menu_Window" : {
+        "boxShadow" : {
+          "y" : "0",
+          "radius" : "0",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "animation" : "none",
+        "frame" : {
+          "y" : "650",
+          "x" : "290",
+          "width" : "95",
+          "height" : "100"
+        },
+        "showWhenCharging" : "NO",
+        "borderWidth" : "5",
+        "backgroundColor" : "rgba(30, 30, 30, 0.30)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "Button_Highlight_Container" : {
+            "boxShadow" : {
+              "y" : "0",
+              "radius" : "0",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "20",
+              "x" : "0",
+              "width" : "95",
+              "height" : "75"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 205, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Shortcut_Button_Highlight" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "0"
+                },
+                "animation" : "none",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "5",
+                  "width" : "85",
+                  "height" : "25"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(241, 157, 144, 0.30)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "0",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "0",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "none",
+                "userInteraction" : "YES",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255,255,255,0)",
+                "blurColor" : "dark"
+              },
+              "NeoFetch_Button_Highlight" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "0"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "25",
+                  "x" : "5",
+                  "width" : "85",
+                  "height" : "25"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(252, 235, 161, 0.30)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "0",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "none",
+                "userInteraction" : "YES",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255,255,255,0)",
+                "animation" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "Shortcut_Button_Highlight,NeoFetch_Button_Highlight",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "actions" : "none",
+            "userInteraction" : "YES",
+            "animation" : "none"
+          },
+          "Menu_Window_Taskbar" : {
+            "boxShadow" : {
+              "y" : "0",
+              "radius" : "0",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "95",
+              "height" : "20"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(30, 30, 30, 1.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Menu_Taskbar_Description" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "10",
+                  "width" : "95",
+                  "height" : "20"
+                },
+                "fontName" : "HouschkaRoundedBold.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "9",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "menu",
+                "numberOfLines" : "1"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "Menu_Taskbar_Description",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "animation" : "none",
+            "actions" : "none",
+            "userInteraction" : "YES"
+          },
+          "NeoFetch_Button_Container" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "45",
+              "x" : "center",
+              "width" : "85",
+              "height" : "25"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "NeoFetch_Button_Description" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "0",
+                  "width" : "95",
+                  "height" : "25"
+                },
+                "fontName" : "HouschkaRoundedBold.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "11",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "System",
+                "numberOfLines" : "1"
+              },
+              "NeoFetch_Button_Icon" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "5",
+                  "width" : "20",
+                  "height" : "20"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "maskURL" : "none",
+                "cornerRadius" : "0",
+                "animation" : "none",
+                "imageURL" : "List.png",
+                "type" : "UIImageView",
+                "actions" : "none",
+                "imageFolder" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "NeoFetch_Button_Description,NeoFetch_Button_Icon",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "actions" : "none",
+            "userInteraction" : "YES",
+            "animation" : "",
+            "cutWithView" : "none"
+          },
+          "Action" : {
+            "boxShadow" : {
+              "y" : "0",
+              "radius" : "0",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "animation" : "none",
+            "frame" : {
+              "y" : "20",
+              "x" : "0",
+              "width" : "95",
+              "height" : "75"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 205, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Shortcut_Button_Highlight_1" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "radius" : "0",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "borderColor" : "rgba(255,255,255,0)",
+                "frame" : {
+                  "y" : "0",
+                  "x" : "5",
+                  "width" : "85",
+                  "height" : "25"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(241, 157, 144, 0)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "0",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "animation",
+                "userInteraction" : "YES",
+                "animation" : {
+                  "Shortcut_Button_Highlight" : "{ alpha:1,wait:0,toggle:yes,speed:0.4,}",
+                  "NeoFetch_Window" : "{ alpha:0,wait:0,toggle:no,speed:0.4,scale:0.8,}",
+                  "NeoFetch_Button_Highlight" : "{ alpha:0,wait:0,toggle:no,speed:0.4,}",
+                  "App_Shortcuts_Window" : "",
+                  "APPACT" : "{ alpha:1,wait:0,toggle:yes,no,speed:0.4,scale:1,}"
+                },
+                "cutWithView" : "none",
+                "blurColor" : "dark"
+              },
+              "NeoFetch_Button_Highlight_1" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "radius" : "0",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "borderColor" : "rgba(255,255,255,0)",
+                "frame" : {
+                  "y" : "25",
+                  "x" : "5",
+                  "width" : "85",
+                  "height" : "25"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(252, 235, 161, 0)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "0",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "animation",
+                "userInteraction" : "YES",
+                "animation" : {
+                  "NeoFetch_Window" : "{ alpha:0,wait:0,toggle:yes,speed:0.4,scale:1,}",
+                  "Shortcut_Button_Highlight" : "{ alpha:0,wait:0,toggle:no,speed:0.4,}",
+                  "NeoFetch_Button_Highlight" : "{ alpha:0,wait:0,toggle:yes,no,speed:0.4,}",
+                  "App_Shortcuts_Window" : "",
+                  "APPACT" : "{ alpha:0,wait:0,toggle:no,speed:0.4,scale:0.8,}"
+                },
+                "cutWithView" : "none",
+                "blurColor" : "dark"
+              },
+              "DrawerAct" : {
+                "boxShadow" : {
+                  "y" : "0",
+                  "radius" : "0",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "blurColor" : "dark",
+                "frame" : {
+                  "y" : "51",
+                  "x" : "5",
+                  "width" : "85",
+                  "height" : "25"
+                },
+                "showWhenCharging" : "NO",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(252, 235, 161, 0)",
+                "showWhenPlaying" : "NO",
+                "blurAlpha" : "0",
+                "cornerRadius" : "0",
+                "type" : "UIView",
+                "childorder" : "none",
+                "rotate" : "0",
+                "blurIntensity" : "10",
+                "alpha" : "1",
+                "scale" : "0",
+                "gradientImage" : "none",
+                "actions" : "openDrawer",
+                "userInteraction" : "YES",
+                "animation" : "",
+                "cutWithView" : "none",
+                "borderColor" : "rgba(255,255,255,0)"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "Shortcut_Button_Highlight_1,NeoFetch_Button_Highlight_1,DrawerAct",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "actions" : "none",
+            "userInteraction" : "YES",
+            "blurColor" : "dark"
+          },
+          "App_Draw_Button_Container" : {
+            "boxShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "70",
+              "x" : "5",
+              "width" : "85",
+              "height" : "25"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "App_Draw_Button_Discription" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "5",
+                  "width" : "95",
+                  "height" : "25"
+                },
+                "fontName" : "HouschkaRoundedBold.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "11",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "App Draw",
+                "numberOfLines" : "1"
+              },
+              "App_Draw_Icon" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "5",
+                  "width" : "20",
+                  "height" : "20"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "maskURL" : "none",
+                "cornerRadius" : "0",
+                "animation" : "none",
+                "imageURL" : "StackedApps.png",
+                "type" : "UIImageView",
+                "actions" : "none",
+                "imageFolder" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "App_Draw_Icon,App_Draw_Button_Discription",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "actions" : "openDrawer",
+            "userInteraction" : "YES",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "animation" : "none"
+          },
+          "Shortcut_Button_Container" : {
+            "boxShadow" : {
+              "y" : "0",
+              "radius" : "0",
+              "x" : "0",
+              "color" : "rgba(0,0,0,0)"
+            },
+            "userInteraction" : "YES",
+            "frame" : {
+              "y" : "20",
+              "x" : "center",
+              "width" : "85",
+              "height" : "25"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255, 255, 255, 0.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Shortcut_Button_Description" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "color" : "rgba(0,0,0,0)",
+                  "x" : "0",
+                  "radius" : "3"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "5",
+                  "width" : "95",
+                  "height" : "25"
+                },
+                "fontName" : "HouschkaRoundedBold.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentCenter",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "11",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "Shortcuts",
+                "numberOfLines" : "1"
+              },
+              "Shortcut_Button_Icon" : {
+                "pauseImage" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "5",
+                  "width" : "20",
+                  "height" : "20"
+                },
+                "isAlbumArt" : "0",
+                "contentMode" : "scaleAspectFit",
+                "maskURL" : "none",
+                "cornerRadius" : "0",
+                "animation" : "none",
+                "imageURL" : "Home.png",
+                "type" : "UIImageView",
+                "actions" : "none",
+                "imageFolder" : "none"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "Shortcut_Button_Description,Shortcut_Button_Icon",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "animation" : "",
+            "actions" : "none",
+            "blurColor" : "dark"
+          }
+        },
+        "blurAlpha" : "5",
+        "cornerRadius" : "8",
+        "type" : "UIView",
+        "childorder" : "Action,Shortcut_Button_Container,Menu_Window_Taskbar,NeoFetch_Button_Container,App_Draw_Button_Container,Button_Highlight_Container",
+        "rotate" : "0",
+        "blurIntensity" : "5",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "actions" : "none",
+        "cutWithView" : "none",
+        "userInteraction" : "YES",
+        "borderColor" : "rgba(30, 30, 30, 1.00)",
+        "blurColor" : "dark"
+      },
+      "Photo_Window" : {
+        "boxShadow" : {
+          "y" : "0",
+          "radius" : "0",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "blurColor" : "dark",
+        "frame" : {
+          "y" : "85",
+          "x" : "45",
+          "width" : "190",
+          "height" : "240"
+        },
+        "showWhenCharging" : "NO",
+        "borderWidth" : "5",
+        "backgroundColor" : "rgba(30, 30, 30, 0.30)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "Image" : {
+            "pauseImage" : "none",
+            "frame" : {
+              "y" : "10",
+              "x" : "0",
+              "width" : "190",
+              "height" : "240"
+            },
+            "isAlbumArt" : "0",
+            "contentMode" : "scaleAspectFit",
+            "maskURL" : "none",
+            "cornerRadius" : "0",
+            "animation" : "none",
+            "imageURL" : "PhotoPlaceholder.png",
+            "type" : "UIImageView",
+            "actions" : "none",
+            "imageFolder" : "none"
+          },
+          "Photo_Window_Taskbar" : {
+            "boxShadow" : {
+              "y" : "0",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "0"
+            },
+            "blurColor" : "dark",
+            "frame" : {
+              "y" : "0",
+              "x" : "0",
+              "width" : "190",
+              "height" : "30"
+            },
+            "showWhenCharging" : "NO",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(30, 30, 30, 1.00)",
+            "showWhenPlaying" : "NO",
+            "children" : {
+              "Photo_Taskbar_Discription" : {
+                "textShadow" : {
+                  "y" : "3",
+                  "radius" : "3",
+                  "x" : "0",
+                  "color" : "rgba(0,0,0,0)"
+                },
+                "fontNameAttr" : "none",
+                "frame" : {
+                  "y" : "center",
+                  "x" : "10",
+                  "width" : "190",
+                  "height" : "30"
+                },
+                "fontName" : "HouschkaRoundedBold.ttf",
+                "fontColorAttr" : "none",
+                "dataAttr" : "none",
+                "textColor" : "rgba(255,255,255,1.0)",
+                "borderWidth" : "0",
+                "backgroundColor" : "rgba(255,255,255,0)",
+                "textAlignment" : "NSTextAlignmentLeft",
+                "type" : "UILabel",
+                "alpha" : "1",
+                "fontSize" : "9",
+                "gradientImage" : "none",
+                "fontSizeAttr" : "none",
+                "textStyle" : "none",
+                "kerning" : "0",
+                "borderColor" : "rgba(255,255,255,1)",
+                "data" : "~desktop\/photo.png",
+                "numberOfLines" : "1"
+              }
+            },
+            "blurAlpha" : "0",
+            "cornerRadius" : "0",
+            "type" : "UIView",
+            "childorder" : "Photo_Taskbar_Discription",
+            "rotate" : "0",
+            "blurIntensity" : "10",
+            "alpha" : "1",
+            "scale" : "0",
+            "gradientImage" : "none",
+            "cutWithView" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
+            "userInteraction" : "YES",
+            "animation" : "none",
+            "actions" : "none"
+          }
+        },
+        "blurAlpha" : "5",
+        "cornerRadius" : "7",
+        "type" : "UIView",
+        "childorder" : "Photo_Window_Taskbar,Image",
+        "rotate" : "0",
+        "blurIntensity" : "5",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "actions" : "none",
+        "cutWithView" : "none",
+        "animation" : "none",
+        "borderColor" : "rgba(30, 30, 30, 1.00)",
+        "userInteraction" : "YES"
+      },
+      "Dock" : {
+        "boxShadow" : {
+          "y" : "0",
+          "radius" : "0",
+          "x" : "0",
+          "color" : "rgba(0,0,0,0)"
+        },
+        "animation" : "none",
+        "frame" : {
+          "y" : "770",
+          "x" : "center",
+          "width" : "340",
+          "height" : "100"
+        },
+        "showWhenCharging" : "NO",
+        "borderWidth" : "5",
+        "backgroundColor" : "rgba(30, 30, 30, 0.30)",
+        "showWhenPlaying" : "NO",
+        "children" : {
+          "Dock_App_3" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImage" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "180",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.netease.cloudmusic",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
+          },
+          "Dock_App" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImage" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "20",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.apple.mobilephone",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
+          },
+          "Dock_App_4" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImage" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "260",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.tencent.xin",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
+          },
+          "Dock_App_2" : {
+            "badgeImageY" : "0",
+            "badgeImageScale" : "1",
+            "scale" : "0",
+            "badgeImage" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "100",
+              "width" : "60",
+              "height" : "60"
+            },
+            "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "type" : "AppIcon",
+            "bundleID" : "com.atebits.Tweetie2",
+            "alpha" : "1",
+            "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+            "badgeImageX" : "0",
+            "labelColor" : "rgba(255, 255, 255, 0.00)"
+          }
+        },
+        "blurAlpha" : "5",
+        "cornerRadius" : "9",
+        "type" : "UIView",
+        "childorder" : "Dock_App,Dock_App_2,Dock_App_3,Dock_App_4",
+        "rotate" : "0",
+        "blurIntensity" : "5",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "actions" : "none",
+        "userInteraction" : "YES",
+        "cutWithView" : "none",
+        "borderColor" : "rgba(30, 30, 30, 1.00)",
+        "blurColor" : "dark"
+      }
+    }
+  }
+}
