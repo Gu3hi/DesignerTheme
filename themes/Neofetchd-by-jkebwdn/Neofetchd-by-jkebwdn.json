@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "width" : "screen_width",
       "height" : "screen_height",
       "userInteractionEnabled" : "NO",
-      "x" : "0",
-      "width" : "screen_width"
+      "x" : "0"
     },
     "order" : [
       "机型适配",
@@ -17,11 +17,14 @@
       "1" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "animation" : {
+          "Music_Info_Text" : "{ alpha:1,speed:0.3,toggle:no,}",
+          "info2" : "{ alpha:0,speed:0.3,toggle:no,}"
+        },
         "frame" : {
           "y" : "1300",
           "x" : "center",
@@ -45,19 +48,19 @@
         "userInteraction" : "YES",
         "cutWithView" : "none",
         "borderColor" : "rgba(255,255,255,0)",
-        "animation" : {
-          "Music_Info_Text" : "{ alpha:1,speed:0.3,toggle:no,}",
-          "info2" : "{ alpha:0,speed:0.3,toggle:no,}"
-        }
+        "blurColor" : "dark"
       },
       "2" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "animation" : {
+          "info2" : "{ alpha:1,speed:0.3,toggle:no,}",
+          "Music_Info_Text" : "{ alpha:0,speed:0.3,toggle:no,}"
+        },
         "frame" : {
           "y" : "1300",
           "x" : "center",
@@ -81,19 +84,16 @@
         "userInteraction" : "YES",
         "cutWithView" : "none",
         "borderColor" : "rgba(255,255,255,0)",
-        "animation" : {
-          "info2" : "{ alpha:1,speed:0.3,toggle:no,}",
-          "Music_Info_Text" : "{ alpha:0,speed:0.3,toggle:no,}"
-        }
+        "blurColor" : "dark"
       },
       "机型适配" : {
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(255, 255, 255, 0.00)",
           "x" : "0",
-          "color" : "rgba(255, 255, 255, 0.00)"
+          "radius" : "3"
         },
-        "userInteraction" : "YES",
+        "animation" : "none",
         "frame" : {
           "y" : "center",
           "x" : "center",
@@ -108,11 +108,11 @@
           "NeoFetch_Window" : {
             "boxShadow" : {
               "y" : "0",
-              "radius" : "0",
+              "color" : "rgba(0, 0, 0, 0.00)",
               "x" : "0",
-              "color" : "rgba(0, 0, 0, 0.00)"
+              "radius" : "0"
             },
-            "animation" : "none",
+            "blurColor" : "dark",
             "frame" : {
               "y" : "435",
               "x" : "center",
@@ -127,9 +127,9 @@
               "mobile@_Info" : {
                 "textShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "fontNameAttr" : "none",
                 "frame" : {
@@ -159,11 +159,11 @@
               "Neofetch_Window_Taskbar" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "radius" : "3",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "3"
                 },
-                "blurColor" : "dark",
+                "userInteraction" : "YES",
                 "frame" : {
                   "y" : "0",
                   "x" : "0",
@@ -178,9 +178,9 @@
                   "NeoFetch_Taskbar_Description" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -221,7 +221,7 @@
                 "cutWithView" : "none",
                 "animation" : "none",
                 "borderColor" : "rgba(255,255,255,0)",
-                "userInteraction" : "YES"
+                "blurColor" : "dark"
               },
               "NeoFetch_Image" : {
                 "pauseImage" : "none",
@@ -244,11 +244,11 @@
               "NeoFetch_User_Data" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
-                "blurColor" : "dark",
+                "animation" : "none",
                 "frame" : {
                   "y" : "67",
                   "x" : "245",
@@ -263,9 +263,9 @@
                   "Kernal_Info" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -295,9 +295,9 @@
                   "OS_Theme_Info" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -327,9 +327,9 @@
                   "CPU_Info" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -359,9 +359,9 @@
                   "Host_Info" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -391,9 +391,9 @@
                   "Packages_Info" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -423,9 +423,9 @@
                   "OS_Info" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -455,9 +455,9 @@
                   "Jailbreak_Info" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -487,9 +487,9 @@
                   "GPU_Info" : {
                     "textShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
                     "fontNameAttr" : "none",
                     "frame" : {
@@ -530,7 +530,7 @@
                 "cutWithView" : "none",
                 "userInteraction" : "YES",
                 "borderColor" : "rgba(255,255,255,0)",
-                "animation" : "none"
+                "blurColor" : "dark"
               }
             },
             "blurAlpha" : "5",
@@ -544,16 +544,16 @@
             "gradientImage" : "none",
             "borderColor" : "rgba(30, 30, 30, 1.00)",
             "actions" : "none",
+            "animation" : "none",
             "userInteraction" : "YES",
-            "cutWithView" : "none",
-            "blurColor" : "dark"
+            "cutWithView" : "none"
           },
           "照片适配" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(255, 255, 255, 0.00)",
               "x" : "0",
-              "color" : "rgba(255, 255, 255, 0.00)"
+              "radius" : "3"
             },
             "blurColor" : "dark",
             "frame" : {
@@ -570,9 +570,9 @@
               "Photo_Window" : {
                 "boxShadow" : {
                   "y" : "0",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "0",
                   "x" : "0",
-                  "radius" : "0"
+                  "color" : "rgba(0,0,0,0)"
                 },
                 "blurColor" : "dark",
                 "frame" : {
@@ -595,7 +595,7 @@
                       "height" : "240"
                     },
                     "isAlbumArt" : "0",
-                    "contentMode" : "scaleAspectFit",
+                    "contentMode" : "scaleToFill",
                     "maskURL" : "none",
                     "cornerRadius" : "0",
                     "animation" : {
@@ -609,11 +609,11 @@
                   "Photo_Window_Taskbar" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "radius" : "0",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "0"
                     },
-                    "cutWithView" : "none",
+                    "blurColor" : "dark",
                     "frame" : {
                       "y" : "0",
                       "x" : "0",
@@ -628,9 +628,9 @@
                       "Photo_Taskbar_Discription" : {
                         "textShadow" : {
                           "y" : "3",
-                          "color" : "rgba(0,0,0,0)",
+                          "radius" : "3",
                           "x" : "0",
-                          "radius" : "3"
+                          "color" : "rgba(0,0,0,0)"
                         },
                         "fontNameAttr" : "none",
                         "frame" : {
@@ -667,11 +667,11 @@
                     "alpha" : "1",
                     "scale" : "0",
                     "gradientImage" : "none",
+                    "cutWithView" : "none",
                     "borderColor" : "rgba(255,255,255,0)",
                     "actions" : "none",
                     "animation" : "none",
-                    "userInteraction" : "YES",
-                    "blurColor" : "dark"
+                    "userInteraction" : "YES"
                   }
                 },
                 "blurAlpha" : "5",
@@ -683,11 +683,11 @@
                 "alpha" : "1",
                 "scale" : "0",
                 "gradientImage" : "none",
+                "borderColor" : "rgba(30, 30, 30, 1.00)",
                 "actions" : "none",
                 "cutWithView" : "none",
                 "userInteraction" : "YES",
-                "animation" : "none",
-                "borderColor" : "rgba(30, 30, 30, 1.00)"
+                "animation" : "none"
               }
             },
             "blurAlpha" : "0",
@@ -700,17 +700,17 @@
             "scale" : "0",
             "gradientImage" : "none",
             "cutWithView" : "none",
+            "userInteraction" : "YES",
             "borderColor" : "rgba(255,255,255,0)",
             "animation" : "none",
-            "actions" : "none",
-            "userInteraction" : "YES"
+            "actions" : "none"
           },
           "动作适配" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(255, 255, 255, 0.00)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(255, 255, 255, 0.00)"
             },
             "blurColor" : "dark",
             "frame" : {
@@ -727,11 +727,11 @@
               "Menu_Window" : {
                 "boxShadow" : {
                   "y" : "0",
-                  "radius" : "0",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "0"
                 },
-                "borderColor" : "rgba(30, 30, 30, 1.00)",
+                "animation" : "none",
                 "frame" : {
                   "y" : "0",
                   "x" : "FR~",
@@ -746,11 +746,11 @@
                   "Button_Highlight_Container" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "radius" : "0",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "0"
                     },
-                    "animation" : "none",
+                    "cutWithView" : "none",
                     "frame" : {
                       "y" : "20",
                       "x" : "0",
@@ -765,11 +765,11 @@
                       "Shortcut_Button_Highlight" : {
                         "boxShadow" : {
                           "y" : "0",
-                          "color" : "rgba(0,0,0,0)",
+                          "radius" : "0",
                           "x" : "0",
-                          "radius" : "0"
+                          "color" : "rgba(0,0,0,0)"
                         },
-                        "animation" : "none",
+                        "blurColor" : "dark",
                         "frame" : {
                           "y" : "0",
                           "x" : "5",
@@ -791,16 +791,16 @@
                         "gradientImage" : "none",
                         "actions" : "none",
                         "cutWithView" : "none",
+                        "animation" : "none",
                         "userInteraction" : "YES",
-                        "borderColor" : "rgba(255,255,255,0)",
-                        "blurColor" : "dark"
+                        "borderColor" : "rgba(255,255,255,0)"
                       },
                       "NeoFetch_Button_Highlight" : {
                         "boxShadow" : {
                           "y" : "0",
-                          "color" : "rgba(0,0,0,0)",
+                          "radius" : "0",
                           "x" : "0",
-                          "radius" : "0"
+                          "color" : "rgba(0,0,0,0)"
                         },
                         "blurColor" : "dark",
                         "frame" : {
@@ -819,14 +819,14 @@
                         "childorder" : "none",
                         "rotate" : "0",
                         "blurIntensity" : "10",
-                        "alpha" : "1",
+                        "alpha" : "0",
                         "scale" : "0",
                         "gradientImage" : "none",
                         "actions" : "none",
                         "cutWithView" : "none",
+                        "animation" : "none",
                         "userInteraction" : "YES",
-                        "borderColor" : "rgba(255,255,255,0)",
-                        "animation" : "none"
+                        "borderColor" : "rgba(255,255,255,0)"
                       }
                     },
                     "blurAlpha" : "0",
@@ -840,18 +840,18 @@
                     "gradientImage" : "none",
                     "borderColor" : "rgba(255,255,255,0)",
                     "userInteraction" : "YES",
+                    "animation" : "none",
                     "actions" : "none",
-                    "cutWithView" : "none",
                     "blurColor" : "dark"
                   },
                   "Shortcut_Button_Container" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "radius" : "0",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "0"
                     },
-                    "blurColor" : "dark",
+                    "actions" : "none",
                     "frame" : {
                       "y" : "20",
                       "x" : "center",
@@ -866,9 +866,9 @@
                       "Shortcut_Button_Description" : {
                         "textShadow" : {
                           "y" : "3",
-                          "color" : "rgba(0,0,0,0)",
+                          "radius" : "3",
                           "x" : "0",
-                          "radius" : "3"
+                          "color" : "rgba(0,0,0,0)"
                         },
                         "fontNameAttr" : "none",
                         "frame" : {
@@ -927,16 +927,16 @@
                     "borderColor" : "rgba(255,255,255,0)",
                     "userInteraction" : "YES",
                     "animation" : "",
-                    "actions" : "none"
+                    "blurColor" : "dark"
                   },
                   "NeoFetch_Button_Container" : {
                     "boxShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
-                    "userInteraction" : "YES",
+                    "blurColor" : "dark",
                     "frame" : {
                       "y" : "45",
                       "x" : "center",
@@ -951,9 +951,9 @@
                       "NeoFetch_Button_Description" : {
                         "textShadow" : {
                           "y" : "3",
-                          "color" : "rgba(0,0,0,0)",
+                          "radius" : "3",
                           "x" : "0",
-                          "radius" : "3"
+                          "color" : "rgba(0,0,0,0)"
                         },
                         "fontNameAttr" : "none",
                         "frame" : {
@@ -1009,19 +1009,19 @@
                     "scale" : "0",
                     "gradientImage" : "none",
                     "borderColor" : "rgba(255,255,255,0)",
+                    "userInteraction" : "YES",
                     "actions" : "none",
                     "cutWithView" : "none",
-                    "animation" : "",
-                    "blurColor" : "dark"
+                    "animation" : ""
                   },
                   "Action" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "radius" : "0",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "0"
                     },
-                    "cutWithView" : "none",
+                    "blurColor" : "dark",
                     "frame" : {
                       "y" : "20",
                       "x" : "0",
@@ -1036,11 +1036,11 @@
                       "NeoFetch_Button_Highlight_1" : {
                         "boxShadow" : {
                           "y" : "0",
-                          "radius" : "0",
+                          "color" : "rgba(0,0,0,0)",
                           "x" : "0",
-                          "color" : "rgba(0,0,0,0)"
+                          "radius" : "0"
                         },
-                        "blurColor" : "dark",
+                        "userInteraction" : "YES",
                         "frame" : {
                           "y" : "0",
                           "x" : "5",
@@ -1073,16 +1073,16 @@
                           "Shortcut_Button_Highlight_1" : "{ y:0,toggle:no,speed:0.1,}",
                           "NeoFetch_Button_Highlight_1" : "{ y:-80,toggle:no,speed:0.1,}"
                         },
-                        "userInteraction" : "YES"
+                        "blurColor" : "dark"
                       },
                       "Shortcut_Button_Highlight_1" : {
                         "boxShadow" : {
                           "y" : "0",
-                          "radius" : "0",
+                          "color" : "rgba(0,0,0,0)",
                           "x" : "0",
-                          "color" : "rgba(0,0,0,0)"
+                          "radius" : "0"
                         },
-                        "blurColor" : "dark",
+                        "userInteraction" : "YES",
                         "frame" : {
                           "y" : "-80",
                           "x" : "5",
@@ -1115,16 +1115,16 @@
                           "hide" : "{ y:0,toggle:no,speed:0.1,}",
                           "NeoFetch_Button_Highlight_1" : "{ y:-80,toggle:no,speed:0.1,}"
                         },
-                        "userInteraction" : "YES"
+                        "blurColor" : "dark"
                       },
                       "DrawerAct" : {
                         "boxShadow" : {
                           "y" : "0",
-                          "radius" : "0",
+                          "color" : "rgba(0,0,0,0)",
                           "x" : "0",
-                          "color" : "rgba(0,0,0,0)"
+                          "radius" : "0"
                         },
-                        "blurColor" : "dark",
+                        "borderColor" : "rgba(255,255,255,0)",
                         "frame" : {
                           "y" : "51",
                           "x" : "5",
@@ -1148,16 +1148,16 @@
                         "cutWithView" : "none",
                         "animation" : "",
                         "userInteraction" : "YES",
-                        "borderColor" : "rgba(255,255,255,0)"
+                        "blurColor" : "dark"
                       },
                       "hide" : {
                         "boxShadow" : {
                           "y" : "0",
-                          "radius" : "0",
+                          "color" : "rgba(0,0,0,0)",
                           "x" : "0",
-                          "color" : "rgba(0,0,0,0)"
+                          "radius" : "0"
                         },
-                        "blurColor" : "dark",
+                        "userInteraction" : "YES",
                         "frame" : {
                           "y" : "-80",
                           "x" : "5",
@@ -1190,7 +1190,7 @@
                           "hide" : "{ y:-80,toggle:no,speed:0.1,}",
                           "NeoFetch_Button_Highlight_1" : "{ y:0,toggle:no,speed:0.1,}"
                         },
-                        "userInteraction" : "YES"
+                        "blurColor" : "dark"
                       }
                     },
                     "blurAlpha" : "0",
@@ -1202,20 +1202,20 @@
                     "alpha" : "1",
                     "scale" : "0",
                     "gradientImage" : "none",
+                    "cutWithView" : "none",
                     "borderColor" : "rgba(255,255,255,0)",
                     "userInteraction" : "YES",
                     "animation" : "none",
-                    "actions" : "none",
-                    "blurColor" : "dark"
+                    "actions" : "none"
                   },
                   "App_Draw_Button_Container" : {
                     "boxShadow" : {
                       "y" : "3",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "3",
                       "x" : "0",
-                      "radius" : "3"
+                      "color" : "rgba(0,0,0,0)"
                     },
-                    "animation" : "none",
+                    "blurColor" : "dark",
                     "frame" : {
                       "y" : "70",
                       "x" : "5",
@@ -1230,9 +1230,9 @@
                       "App_Draw_Button_Discription" : {
                         "textShadow" : {
                           "y" : "3",
-                          "color" : "rgba(0,0,0,0)",
+                          "radius" : "3",
                           "x" : "0",
-                          "radius" : "3"
+                          "color" : "rgba(0,0,0,0)"
                         },
                         "fontNameAttr" : "none",
                         "frame" : {
@@ -1289,18 +1289,18 @@
                     "gradientImage" : "none",
                     "actions" : "openDrawer",
                     "cutWithView" : "none",
+                    "animation" : "none",
                     "userInteraction" : "YES",
-                    "borderColor" : "rgba(255,255,255,0)",
-                    "blurColor" : "dark"
+                    "borderColor" : "rgba(255,255,255,0)"
                   },
                   "Menu_Window_Taskbar" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "radius" : "0",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "0"
                     },
-                    "cutWithView" : "none",
+                    "blurColor" : "dark",
                     "frame" : {
                       "y" : "0",
                       "x" : "0",
@@ -1315,9 +1315,9 @@
                       "Menu_Taskbar_Description" : {
                         "textShadow" : {
                           "y" : "3",
-                          "color" : "rgba(0,0,0,0)",
+                          "radius" : "3",
                           "x" : "0",
-                          "radius" : "3"
+                          "color" : "rgba(0,0,0,0)"
                         },
                         "fontNameAttr" : "none",
                         "frame" : {
@@ -1354,11 +1354,11 @@
                     "alpha" : "1",
                     "scale" : "0",
                     "gradientImage" : "none",
+                    "cutWithView" : "none",
                     "borderColor" : "rgba(255,255,255,0)",
                     "userInteraction" : "YES",
                     "animation" : "none",
-                    "actions" : "none",
-                    "blurColor" : "dark"
+                    "actions" : "none"
                   }
                 },
                 "blurAlpha" : "5",
@@ -1370,10 +1370,10 @@
                 "alpha" : "1",
                 "scale" : "0",
                 "gradientImage" : "none",
+                "borderColor" : "rgba(30, 30, 30, 1.00)",
                 "actions" : "none",
                 "userInteraction" : "YES",
                 "cutWithView" : "none",
-                "animation" : "none",
                 "blurColor" : "dark"
               }
             },
@@ -1388,18 +1388,18 @@
             "gradientImage" : "none",
             "actions" : "none",
             "cutWithView" : "none",
+            "animation" : "none",
             "userInteraction" : "YES",
-            "borderColor" : "rgba(255,255,255,0)",
-            "animation" : "none"
+            "borderColor" : "rgba(255,255,255,0)"
           },
           "播放器适配" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(255, 255, 255, 0.00)",
               "x" : "0",
-              "color" : "rgba(255, 255, 255, 0.00)"
+              "radius" : "3"
             },
-            "blurColor" : "dark",
+            "userInteraction" : "YES",
             "frame" : {
               "y" : "345",
               "x" : "center",
@@ -1414,11 +1414,11 @@
               "User_Information" : {
                 "boxShadow" : {
                   "y" : "0",
-                  "radius" : "0",
+                  "color" : "rgba(0,0,0,0)",
                   "x" : "0",
-                  "color" : "rgba(0,0,0,0)"
+                  "radius" : "0"
                 },
-                "actions" : "none",
+                "blurColor" : "dark",
                 "frame" : {
                   "y" : "0",
                   "x" : "0",
@@ -1433,11 +1433,11 @@
                   "Music_Info_Container" : {
                     "boxShadow" : {
                       "y" : "3",
-                      "radius" : "3",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "3"
                     },
-                    "blurColor" : "dark",
+                    "animation" : "none",
                     "frame" : {
                       "y" : "48",
                       "x" : "10",
@@ -1452,9 +1452,9 @@
                       "Music_Info_Text" : {
                         "textShadow" : {
                           "y" : "3",
-                          "radius" : "3",
+                          "color" : "rgba(0,0,0,0)",
                           "x" : "0",
-                          "color" : "rgba(0,0,0,0)"
+                          "radius" : "3"
                         },
                         "fontNameAttr" : "none",
                         "frame" : {
@@ -1484,9 +1484,9 @@
                       "info2" : {
                         "textShadow" : {
                           "y" : "3",
-                          "radius" : "3",
+                          "color" : "rgba(0,0,0,0)",
                           "x" : "0",
-                          "color" : "rgba(0,0,0,0)"
+                          "radius" : "3"
                         },
                         "fontNameAttr" : "none",
                         "frame" : {
@@ -1545,16 +1545,16 @@
                     "actions" : "animation",
                     "userInteraction" : "YES",
                     "cutWithView" : "none",
-                    "animation" : "none"
+                    "blurColor" : "dark"
                   },
                   "Avatar_Container" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "radius" : "0",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "0"
                     },
-                    "blurColor" : "dark",
+                    "animation" : "none",
                     "frame" : {
                       "y" : "center",
                       "x" : "130",
@@ -1598,7 +1598,7 @@
                     "actions" : "none",
                     "userInteraction" : "YES",
                     "cutWithView" : "none",
-                    "animation" : "none"
+                    "blurColor" : "dark"
                   },
                   "Hello_Image" : {
                     "pauseImage" : "none",
@@ -1621,11 +1621,11 @@
                   "Greeting_Message_Container" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "color" : "rgba(0,0,0,0)",
+                      "radius" : "0",
                       "x" : "0",
-                      "radius" : "0"
+                      "color" : "rgba(0,0,0,0)"
                     },
-                    "blurColor" : "dark",
+                    "animation" : "none",
                     "frame" : {
                       "y" : "32",
                       "x" : "10",
@@ -1658,9 +1658,9 @@
                       "Greeting_Text" : {
                         "textShadow" : {
                           "y" : "3",
-                          "color" : "rgba(0,0,0,0)",
+                          "radius" : "3",
                           "x" : "0",
-                          "radius" : "3"
+                          "color" : "rgba(0,0,0,0)"
                         },
                         "fontNameAttr" : "none",
                         "frame" : {
@@ -1701,7 +1701,7 @@
                     "actions" : "none",
                     "userInteraction" : "YES",
                     "cutWithView" : "none",
-                    "animation" : "none"
+                    "blurColor" : "dark"
                   }
                 },
                 "blurAlpha" : "5",
@@ -1713,11 +1713,11 @@
                 "alpha" : "1",
                 "scale" : "0",
                 "gradientImage" : "none",
+                "actions" : "none",
                 "cutWithView" : "none",
                 "userInteraction" : "YES",
                 "animation" : "none",
-                "borderColor" : "rgba(30, 30, 30, 1.00)",
-                "blurColor" : "dark"
+                "borderColor" : "rgba(30, 30, 30, 1.00)"
               }
             },
             "blurAlpha" : "0",
@@ -1733,16 +1733,16 @@
             "borderColor" : "rgba(255,255,255,0)",
             "animation" : "none",
             "actions" : "none",
-            "userInteraction" : "YES"
+            "blurColor" : "dark"
           },
           "Dock缩放适配" : {
             "boxShadow" : {
               "y" : "0",
-              "color" : "rgba(255, 255, 255, 0.00)",
+              "radius" : "0",
               "x" : "0",
-              "radius" : "0"
+              "color" : "rgba(255, 255, 255, 0.00)"
             },
-            "blurColor" : "dark",
+            "userInteraction" : "YES",
             "frame" : {
               "y" : "770",
               "x" : "center",
@@ -1757,11 +1757,11 @@
               "Dock" : {
                 "boxShadow" : {
                   "y" : "0",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "0",
                   "x" : "0",
-                  "radius" : "0"
+                  "color" : "rgba(0,0,0,0)"
                 },
-                "borderColor" : "rgba(30, 30, 30, 1.00)",
+                "blurColor" : "dark",
                 "frame" : {
                   "y" : "0",
                   "x" : "0",
@@ -1777,7 +1777,7 @@
                     "badgeImageY" : "0",
                     "badgeImageScale" : "1",
                     "scale" : "0",
-                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImage" : "none",
                     "frame" : {
                       "y" : "center",
                       "x" : "180",
@@ -1790,14 +1790,14 @@
                     "bundleID" : "app.swiftgram.ios",
                     "alpha" : "1",
                     "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                    "badgeImageX" : "0",
-                    "badgeImage" : "none"
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0"
                   },
                   "Dock_App" : {
                     "badgeImageY" : "0",
                     "badgeImageScale" : "1",
                     "scale" : "0",
-                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImage" : "none",
                     "frame" : {
                       "y" : "center",
                       "x" : "20",
@@ -1810,14 +1810,14 @@
                     "bundleID" : "com.tencent.xin",
                     "alpha" : "1",
                     "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                    "badgeImageX" : "0",
-                    "badgeImage" : "none"
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0"
                   },
                   "Dock_App_4" : {
                     "badgeImageY" : "0",
                     "badgeImageScale" : "1",
                     "scale" : "0",
-                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImage" : "none",
                     "frame" : {
                       "y" : "center",
                       "x" : "260",
@@ -1830,14 +1830,14 @@
                     "bundleID" : "com.atebits.Tweetie2",
                     "alpha" : "1",
                     "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                    "badgeImageX" : "0",
-                    "badgeImage" : "none"
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0"
                   },
                   "Dock_App_2" : {
                     "badgeImageY" : "0",
                     "badgeImageScale" : "1",
                     "scale" : "0",
-                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImage" : "none",
                     "frame" : {
                       "y" : "center",
                       "x" : "100",
@@ -1850,8 +1850,8 @@
                     "bundleID" : "com.hammerandchisel.discord",
                     "alpha" : "1",
                     "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                    "badgeImageX" : "0",
-                    "badgeImage" : "none"
+                    "labelColor" : "rgba(255, 255, 255, 0.00)",
+                    "badgeImageX" : "0"
                   }
                 },
                 "blurAlpha" : "5",
@@ -1863,11 +1863,11 @@
                 "alpha" : "1",
                 "scale" : "0",
                 "gradientImage" : "none",
+                "borderColor" : "rgba(30, 30, 30, 1.00)",
                 "actions" : "none",
                 "cutWithView" : "none",
                 "animation" : "none",
-                "userInteraction" : "YES",
-                "blurColor" : "dark"
+                "userInteraction" : "YES"
               }
             },
             "blurAlpha" : "0",
@@ -1883,16 +1883,16 @@
             "actions" : "none",
             "cutWithView" : "none",
             "animation" : "none",
-            "userInteraction" : "YES"
+            "blurColor" : "dark"
           },
           "APPACT" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(255, 255, 255, 0.00)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(255, 255, 255, 0.00)"
             },
-            "animation" : "none",
+            "blurColor" : "dark",
             "frame" : {
               "y" : "435",
               "x" : "center",
@@ -1907,11 +1907,11 @@
               "App_Shortcuts_Window" : {
                 "boxShadow" : {
                   "y" : "3",
-                  "color" : "rgba(0,0,0,0)",
+                  "radius" : "3",
                   "x" : "0",
-                  "radius" : "3"
+                  "color" : "rgba(0,0,0,0)"
                 },
-                "userInteraction" : "YES",
+                "blurColor" : "dark",
                 "frame" : {
                   "y" : "0",
                   "x" : "0",
@@ -1923,16 +1923,16 @@
                 "backgroundColor" : "rgba(48, 48, 48, 0.30)",
                 "showWhenPlaying" : "NO",
                 "children" : {
-                  "Shortcuts_App_Row_2" : {
+                  "Shortcuts_App_Row_1" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "radius" : "0",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "0"
                     },
                     "blurColor" : "dark",
                     "frame" : {
-                      "y" : "110",
+                      "y" : "30",
                       "x" : "center",
                       "width" : "340",
                       "height" : "80"
@@ -1942,27 +1942,7 @@
                     "backgroundColor" : "rgba(255, 255, 255, 0.00)",
                     "showWhenPlaying" : "NO",
                     "children" : {
-                      "App_3_1" : {
-                        "badgeImageY" : "0",
-                        "badgeImageScale" : "1",
-                        "scale" : "0",
-                        "badgeImageX" : "0",
-                        "frame" : {
-                          "y" : "center",
-                          "x" : "180",
-                          "width" : "60",
-                          "height" : "60"
-                        },
-                        "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "type" : "AppIcon",
-                        "bundleID" : "com.gemd.iting",
-                        "alpha" : "1",
-                        "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                        "labelColor" : "rgba(255, 255, 255, 0.00)",
-                        "badgeImage" : "none"
-                      },
-                      "App_2_1" : {
+                      "App_2" : {
                         "badgeImageY" : "0",
                         "badgeImageScale" : "1",
                         "scale" : "0",
@@ -1976,13 +1956,13 @@
                         "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
                         "backgroundColor" : "rgba(255,255,255,0)",
                         "type" : "AppIcon",
-                        "bundleID" : "com.ss.iphone.ugc.Aweme",
+                        "bundleID" : "com.autonavi.amap",
                         "alpha" : "1",
                         "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
                         "labelColor" : "rgba(255, 255, 255, 0.00)",
                         "badgeImage" : "none"
                       },
-                      "App_1_1" : {
+                      "App_1" : {
                         "badgeImageY" : "0",
                         "badgeImageScale" : "1",
                         "scale" : "0",
@@ -1996,17 +1976,17 @@
                         "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
                         "backgroundColor" : "rgba(255,255,255,0)",
                         "type" : "AppIcon",
-                        "bundleID" : "org.coolstar.SileoStore",
+                        "bundleID" : "com.apple.mobileslideshow",
                         "alpha" : "1",
                         "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
                         "labelColor" : "rgba(255, 255, 255, 0.00)",
                         "badgeImage" : "none"
                       },
-                      "App_4_1" : {
+                      "App_4" : {
                         "badgeImageY" : "0",
                         "badgeImageScale" : "1",
                         "scale" : "0",
-                        "badgeImage" : "none",
+                        "badgeImageX" : "0",
                         "frame" : {
                           "y" : "center",
                           "x" : "260",
@@ -2016,17 +1996,37 @@
                         "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
                         "backgroundColor" : "rgba(255,255,255,0)",
                         "type" : "AppIcon",
-                        "bundleID" : "com.apple.Preferences",
+                        "bundleID" : "com.xiaomi.mihome",
                         "alpha" : "1",
                         "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                        "labelColor" : "rgba(255, 255, 255, 0.00)",
+                        "badgeImage" : "none"
+                      },
+                      "App_3" : {
+                        "badgeImageY" : "0",
+                        "badgeImageScale" : "1",
+                        "scale" : "0",
                         "badgeImageX" : "0",
-                        "labelColor" : "rgba(255, 255, 255, 0.00)"
+                        "frame" : {
+                          "y" : "center",
+                          "x" : "180",
+                          "width" : "60",
+                          "height" : "60"
+                        },
+                        "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "type" : "AppIcon",
+                        "bundleID" : "com.apple.Home",
+                        "alpha" : "1",
+                        "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                        "labelColor" : "rgba(255, 255, 255, 0.00)",
+                        "badgeImage" : "none"
                       }
                     },
                     "blurAlpha" : "0",
                     "cornerRadius" : "0",
                     "type" : "UIView",
-                    "childorder" : "App_3_1,App_2_1,App_1_1,App_4_1",
+                    "childorder" : "App_1,App_2,App_3,App_4",
                     "rotate" : "0",
                     "blurIntensity" : "10",
                     "alpha" : "1",
@@ -2041,11 +2041,11 @@
                   "App_Shortcuts_Taskbar" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "radius" : "0",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "0"
                     },
-                    "animation" : "none",
+                    "blurColor" : "dark",
                     "frame" : {
                       "y" : "0",
                       "x" : "0",
@@ -2060,9 +2060,9 @@
                       "App_Shortcuts_Taskbar_Description" : {
                         "textShadow" : {
                           "y" : "3",
-                          "color" : "rgba(0,0,0,0)",
+                          "radius" : "3",
                           "x" : "0",
-                          "radius" : "3"
+                          "color" : "rgba(0,0,0,0)"
                         },
                         "fontNameAttr" : "none",
                         "frame" : {
@@ -2101,20 +2101,20 @@
                     "gradientImage" : "none",
                     "actions" : "none",
                     "cutWithView" : "none",
+                    "animation" : "none",
                     "borderColor" : "rgba(255,255,255,0)",
-                    "userInteraction" : "YES",
-                    "blurColor" : "dark"
+                    "userInteraction" : "YES"
                   },
-                  "Shortcuts_App_Row_1" : {
+                  "Shortcuts_App_Row_2" : {
                     "boxShadow" : {
                       "y" : "0",
-                      "radius" : "0",
+                      "color" : "rgba(0,0,0,0)",
                       "x" : "0",
-                      "color" : "rgba(0,0,0,0)"
+                      "radius" : "0"
                     },
-                    "animation" : "none",
+                    "userInteraction" : "YES",
                     "frame" : {
-                      "y" : "30",
+                      "y" : "110",
                       "x" : "center",
                       "width" : "340",
                       "height" : "80"
@@ -2124,67 +2124,7 @@
                     "backgroundColor" : "rgba(255, 255, 255, 0.00)",
                     "showWhenPlaying" : "NO",
                     "children" : {
-                      "App_2" : {
-                        "badgeImageY" : "0",
-                        "badgeImageScale" : "1",
-                        "scale" : "0",
-                        "badgeImage" : "none",
-                        "frame" : {
-                          "y" : "center",
-                          "x" : "100",
-                          "width" : "60",
-                          "height" : "60"
-                        },
-                        "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "type" : "AppIcon",
-                        "bundleID" : "com.autonavi.amap",
-                        "alpha" : "1",
-                        "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                        "labelColor" : "rgba(255, 255, 255, 0.00)",
-                        "badgeImageX" : "0"
-                      },
-                      "App_1" : {
-                        "badgeImageY" : "0",
-                        "badgeImageScale" : "1",
-                        "scale" : "0",
-                        "badgeImage" : "none",
-                        "frame" : {
-                          "y" : "center",
-                          "x" : "20",
-                          "width" : "60",
-                          "height" : "60"
-                        },
-                        "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "type" : "AppIcon",
-                        "bundleID" : "com.apple.mobileslideshow",
-                        "alpha" : "1",
-                        "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                        "labelColor" : "rgba(255, 255, 255, 0.00)",
-                        "badgeImageX" : "0"
-                      },
-                      "App_4" : {
-                        "badgeImageY" : "0",
-                        "badgeImageScale" : "1",
-                        "scale" : "0",
-                        "badgeImage" : "none",
-                        "frame" : {
-                          "y" : "center",
-                          "x" : "260",
-                          "width" : "60",
-                          "height" : "60"
-                        },
-                        "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
-                        "backgroundColor" : "rgba(255,255,255,0)",
-                        "type" : "AppIcon",
-                        "bundleID" : "com.xiaomi.mihome",
-                        "alpha" : "1",
-                        "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
-                        "labelColor" : "rgba(255, 255, 255, 0.00)",
-                        "badgeImageX" : "0"
-                      },
-                      "App_3" : {
+                      "App_3_1" : {
                         "badgeImageY" : "0",
                         "badgeImageScale" : "1",
                         "scale" : "0",
@@ -2198,17 +2138,77 @@
                         "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
                         "backgroundColor" : "rgba(255,255,255,0)",
                         "type" : "AppIcon",
-                        "bundleID" : "com.apple.Home",
+                        "bundleID" : "com.gemd.iting",
                         "alpha" : "1",
                         "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                        "badgeImageX" : "0",
+                        "labelColor" : "rgba(255, 255, 255, 0.00)"
+                      },
+                      "App_2_1" : {
+                        "badgeImageY" : "0",
+                        "badgeImageScale" : "1",
+                        "scale" : "0",
+                        "badgeImage" : "none",
+                        "frame" : {
+                          "y" : "center",
+                          "x" : "100",
+                          "width" : "60",
+                          "height" : "60"
+                        },
+                        "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "type" : "AppIcon",
+                        "bundleID" : "com.ss.iphone.ugc.Aweme",
+                        "alpha" : "1",
+                        "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                        "badgeImageX" : "0",
+                        "labelColor" : "rgba(255, 255, 255, 0.00)"
+                      },
+                      "App_1_1" : {
+                        "badgeImageY" : "0",
+                        "badgeImageScale" : "1",
+                        "scale" : "0",
+                        "badgeImage" : "none",
+                        "frame" : {
+                          "y" : "center",
+                          "x" : "20",
+                          "width" : "60",
+                          "height" : "60"
+                        },
+                        "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "type" : "AppIcon",
+                        "bundleID" : "org.coolstar.SileoStore",
+                        "alpha" : "1",
+                        "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                        "badgeImageX" : "0",
+                        "labelColor" : "rgba(255, 255, 255, 0.00)"
+                      },
+                      "App_4_1" : {
+                        "badgeImageY" : "0",
+                        "badgeImageScale" : "1",
+                        "scale" : "0",
                         "labelColor" : "rgba(255, 255, 255, 0.00)",
-                        "badgeImageX" : "0"
+                        "frame" : {
+                          "y" : "center",
+                          "x" : "260",
+                          "width" : "60",
+                          "height" : "60"
+                        },
+                        "badgeBGColor" : "rgba(234, 51, 35, 0.00)",
+                        "backgroundColor" : "rgba(255,255,255,0)",
+                        "type" : "AppIcon",
+                        "bundleID" : "com.apple.Preferences",
+                        "alpha" : "1",
+                        "badgeTextColor" : "rgba(255, 255, 255, 0.00)",
+                        "badgeImageX" : "0",
+                        "badgeImage" : "none"
                       }
                     },
                     "blurAlpha" : "0",
                     "cornerRadius" : "0",
                     "type" : "UIView",
-                    "childorder" : "App_1,App_2,App_3,App_4",
+                    "childorder" : "App_3_1,App_2_1,App_1_1,App_4_1",
                     "rotate" : "0",
                     "blurIntensity" : "10",
                     "alpha" : "1",
@@ -2216,8 +2216,8 @@
                     "gradientImage" : "none",
                     "actions" : "none",
                     "cutWithView" : "none",
+                    "animation" : "none",
                     "borderColor" : "rgba(255,255,255,0)",
-                    "userInteraction" : "YES",
                     "blurColor" : "dark"
                   }
                 },
@@ -2231,10 +2231,10 @@
                 "scale" : "0",
                 "gradientImage" : "none",
                 "cutWithView" : "none",
+                "userInteraction" : "YES",
                 "borderColor" : "rgba(30, 30, 30, 1.00)",
                 "actions" : "none",
-                "animation" : "none",
-                "blurColor" : "dark"
+                "animation" : "none"
               }
             },
             "blurAlpha" : "0",
@@ -2248,9 +2248,9 @@
             "gradientImage" : "none",
             "actions" : "none",
             "cutWithView" : "none",
+            "animation" : "none",
             "userInteraction" : "YES",
-            "borderColor" : "rgba(255,255,255,0)",
-            "blurColor" : "dark"
+            "borderColor" : "rgba(255,255,255,0)"
           }
         },
         "blurAlpha" : "0",
@@ -2263,9 +2263,9 @@
         "scale" : "1",
         "gradientImage" : "none",
         "borderColor" : "rgba(255,255,255,0)",
+        "userInteraction" : "YES",
         "actions" : "none",
         "cutWithView" : "none",
-        "animation" : "none",
         "blurColor" : "dark"
       }
     }
