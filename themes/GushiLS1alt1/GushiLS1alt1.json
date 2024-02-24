@@ -2,16 +2,15 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "x" : "0",
       "width" : "screen_width",
       "height" : "screen_height",
-      "userInteractionEnabled" : "NO",
-      "x" : "0"
+      "userInteractionEnabled" : "NO"
     },
     "order" : [
       "box2",
       "batt",
-      "musicbox",
-      "singlebox"
+      "musicbox"
     ],
     "type" : "UIView",
     "children" : {
@@ -39,86 +38,11 @@
         "fontName" : "AvenirNext-Bold",
         "textShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
-          "x" : "0",
-          "radius" : "3"
-        },
-        "fontNameAttr" : "none"
-      },
-      "singlebox" : {
-        "boxShadow" : {
-          "y" : "3",
           "radius" : "3",
           "x" : "0",
           "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
-        "frame" : {
-          "y" : "267",
-          "x" : "44",
-          "width" : "80",
-          "height" : "30"
-        },
-        "showWhenCharging" : "NO",
-        "borderWidth" : "0",
-        "backgroundColor" : "rgba(0, 0, 0, 0.55)",
-        "showWhenPlaying" : "NO",
-        "children" : {
-          "single_" : {
-            "maskURL" : "none",
-            "actions" : "none",
-            "frame" : {
-              "y" : "6",
-              "x" : "11",
-              "width" : "22",
-              "height" : "19"
-            },
-            "contentMode" : "scaleAspectFit",
-            "type" : "UIImageView",
-            "animation" : "none",
-            "imageFolder" : "\/var\/mobile\/Library\/DesignerAssets\/signalImages\/Ripple",
-            "pauseImage" : "none",
-            "imageIsBlack" : "YES",
-            "isAlbumArt" : "0",
-            "imageURL" : "hello.png",
-            "cornerRadius" : "0",
-            "imageColor" : "rgba(255, 255, 255, 1.00)"
-          },
-          "wifi" : {
-            "maskURL" : "none",
-            "actions" : "none",
-            "frame" : {
-              "y" : "7",
-              "x" : "45",
-              "width" : "22",
-              "height" : "17"
-            },
-            "contentMode" : "scaleAspectFit",
-            "type" : "UIImageView",
-            "animation" : "none",
-            "imageFolder" : "\/var\/mobile\/Library\/DesignerAssets\/wifiImages\/Ripple",
-            "pauseImage" : "none",
-            "imageIsBlack" : "YES",
-            "isAlbumArt" : "0",
-            "imageURL" : "hello.png",
-            "cornerRadius" : "0",
-            "imageColor" : "rgba(255, 255, 255, 1.00)"
-          }
-        },
-        "blurAlpha" : "0",
-        "cornerRadius" : "12",
-        "type" : "UIView",
-        "childorder" : "single_,wifi",
-        "rotate" : "0",
-        "blurIntensity" : "10",
-        "alpha" : "1",
-        "scale" : "0",
-        "gradientImage" : "none",
-        "actions" : "none",
-        "userInteraction" : "YES",
-        "animation" : "none",
-        "cutWithView" : "none",
-        "borderColor" : "rgba(255,255,255,0)"
+        "fontNameAttr" : "none"
       },
       "box2" : {
         "scale" : "0",
@@ -179,9 +103,9 @@
             "fontName" : "PingFangHK-Semibold",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
@@ -209,9 +133,9 @@
             "fontName" : "HelveticaNeue-Bold",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
@@ -287,18 +211,18 @@
             "fontName" : "Helvetica-Bold",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           }
         },
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "cornerRadius" : "15",
         "blurColor" : "dark",
@@ -307,13 +231,11 @@
       "musicbox" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "animation" : {
-          "MusicPlayer" : "{ speed:0.2,height:220,}"
-        },
+        "blurColor" : "dark",
         "frame" : {
           "y" : "344",
           "x" : "160",
@@ -344,9 +266,9 @@
           "musict" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -412,9 +334,9 @@
           "musica" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -453,9 +375,11 @@
         "gradientImage" : "none",
         "actions" : "none",
         "cutWithView" : "none",
+        "animation" : {
+          "MusicPlayer" : "{ speed:0.2,height:220,}"
+        },
         "userInteraction" : "YES",
-        "borderColor" : "rgba(255,255,255,0)",
-        "blurColor" : "dark"
+        "borderColor" : "rgba(255,255,255,0)"
       }
     }
   }
