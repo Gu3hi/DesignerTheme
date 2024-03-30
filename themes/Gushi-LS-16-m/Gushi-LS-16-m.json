@@ -2,10 +2,10 @@
   "PresetView" : {
     "frame" : {
       "y" : "0",
+      "height" : "screen_height",
       "userInteractionEnabled" : "NO",
       "x" : "0",
-      "width" : "screen_width",
-      "height" : "screen_height"
+      "width" : "screen_width"
     },
     "order" : [
       "music",
@@ -19,11 +19,11 @@
       "Act1" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "userInteraction" : "YES",
         "frame" : {
           "y" : "2000",
           "x" : "center",
@@ -52,14 +52,14 @@
         "animation" : {
           "music" : "{ alpha:1,speed:2,toggle:no,wait:0,}"
         },
-        "userInteraction" : "YES"
+        "blurColor" : "dark"
       },
       "timebx" : {
         "boxShadow" : {
           "y" : "3",
-          "radius" : "3",
+          "color" : "rgba(0,0,0,0)",
           "x" : "0",
-          "color" : "rgba(0,0,0,0)"
+          "radius" : "3"
         },
         "blurColor" : "dark",
         "frame" : {
@@ -77,11 +77,11 @@
           "Batshpe" : {
             "boxShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
-            "animation" : "none",
+            "blurColor" : "dark",
             "frame" : {
               "y" : "0",
               "x" : "369",
@@ -105,12 +105,12 @@
                   "height" : "5"
                 },
                 "fontSize" : "0",
-                "innerColor" : "rgba(52, 120, 116, 1.00)",
+                "midColor" : "rgba(201, 172, 86, 1.00)",
                 "borderWidth" : "0",
                 "borderColor" : "rgba(255,255,255,0)",
                 "type" : "BatteryBar",
                 "gradientImage" : "none",
-                "midColor" : "rgba(201, 172, 86, 1.00)"
+                "innerColor" : "rgba(52, 120, 116, 1.00)"
               }
             },
             "blurAlpha" : "0",
@@ -126,16 +126,16 @@
             "maskURL" : "none",
             "actions" : "none",
             "userInteraction" : "YES",
+            "animation" : "none",
             "cutWithView" : "none",
-            "borderColor" : "rgba(255,255,255,0)",
-            "blurColor" : "dark"
+            "borderColor" : "rgba(255,255,255,0)"
           },
           "hol" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -186,9 +186,9 @@
             "fontName" : "NikeCombat.ttf",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
@@ -216,20 +216,20 @@
             "fontName" : "HelveticaNeue-Medium",
             "textShadow" : {
               "y" : "3",
-              "radius" : "3",
+              "color" : "rgba(0,0,0,0)",
               "x" : "0",
-              "color" : "rgba(0,0,0,0)"
+              "radius" : "3"
             },
             "fontNameAttr" : "none"
           },
           "weae" : {
             "boxShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
-            "borderColor" : "rgba(255,255,255,0)",
+            "blurColor" : "light2",
             "frame" : {
               "y" : "99",
               "x" : "FR~115",
@@ -267,11 +267,11 @@
             "scale" : "0",
             "gradientImage" : "none",
             "maskURL" : "none",
+            "borderColor" : "rgba(255,255,255,0)",
             "actions" : "playMusic",
             "cutWithView" : "none",
             "animation" : "none",
-            "userInteraction" : "YES",
-            "blurColor" : "light2"
+            "userInteraction" : "YES"
           },
           "singl" : {
             "ringBackground" : "YES",
@@ -310,12 +310,12 @@
             "gradientImage" : "none",
             "fontSizeAttr" : "none",
             "fontSize" : "11",
-            "fontName" : "Nike Combat Stencil.ttf",
+            "fontName" : "NikeCombat.ttf",
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none"
           },
@@ -348,19 +348,19 @@
         "gradientImage" : "none",
         "maskURL" : "none",
         "actions" : "none",
+        "userInteraction" : "YES",
         "cutWithView" : "none",
         "animation" : "none",
-        "borderColor" : "rgba(255,255,255,0)",
-        "userInteraction" : "YES"
+        "borderColor" : "rgba(255,255,255,0)"
       },
       "Act2" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "userInteraction" : "YES",
         "frame" : {
           "y" : "2000",
           "x" : "center",
@@ -389,16 +389,16 @@
         "animation" : {
           "music" : "{ alpha:0,speed:2,toggle:no,wait:0,}"
         },
-        "userInteraction" : "YES"
+        "blurColor" : "dark"
       },
       "music" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "borderColor" : "rgba(51, 51, 51, 1.00)",
         "frame" : {
           "y" : "FB~0",
           "x" : "center",
@@ -413,9 +413,9 @@
           "ml" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -445,9 +445,9 @@
           "ma" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -477,9 +477,9 @@
           "musict" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -527,9 +527,9 @@
           "musicart" : {
             "textShadow" : {
               "y" : "3",
-              "color" : "rgba(0,0,0,0)",
+              "radius" : "3",
               "x" : "0",
-              "radius" : "3"
+              "color" : "rgba(0,0,0,0)"
             },
             "fontNameAttr" : "none",
             "frame" : {
@@ -587,16 +587,16 @@
         "animation" : {
           "MusicPlayer" : "{ speed:0.2,height:220,}"
         },
-        "borderColor" : "rgba(51, 51, 51, 1.00)"
+        "blurColor" : "dark"
       },
       "Act3" : {
         "boxShadow" : {
           "y" : "3",
-          "color" : "rgba(0,0,0,0)",
+          "radius" : "3",
           "x" : "0",
-          "radius" : "3"
+          "color" : "rgba(0,0,0,0)"
         },
-        "blurColor" : "dark",
+        "userInteraction" : "YES",
         "frame" : {
           "y" : "2000",
           "x" : "center",
@@ -623,7 +623,7 @@
         "cutWithView" : "none",
         "borderColor" : "rgba(255,255,255,0)",
         "animation" : "none",
-        "userInteraction" : "YES"
+        "blurColor" : "dark"
       }
     }
   }
