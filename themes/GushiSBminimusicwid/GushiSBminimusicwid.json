@@ -1,0 +1,137 @@
+{
+  "PresetView" : {
+    "frame" : {
+      "y" : "0",
+      "userInteractionEnabled" : "NO",
+      "x" : "0",
+      "width" : "screen_width",
+      "height" : "screen_height"
+    },
+    "order" : [
+      "musicbox"
+    ],
+    "type" : "UIView",
+    "children" : {
+      "musicbox" : {
+        "boxShadow" : {
+          "y" : "3",
+          "color" : "rgba(0,0,0,0)",
+          "x" : "0",
+          "radius" : "3"
+        },
+        "blurColor" : "dark",
+        "frame" : {
+          "y" : "FB~170",
+          "x" : "center",
+          "width" : "355",
+          "height" : "41"
+        },
+        "showWhenCharging" : "NO",
+        "borderWidth" : "1",
+        "backgroundColor" : "rgba(0, 0, 0, 0.20)",
+        "showWhenPlaying" : "YES",
+        "children" : {
+          "musict" : {
+            "textShadow" : {
+              "y" : "3",
+              "color" : "rgba(0,0,0,0)",
+              "x" : "0",
+              "radius" : "3"
+            },
+            "fontNameAttr" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "center",
+              "width" : "271",
+              "height" : "21"
+            },
+            "fontName" : "Arial-BoldMT",
+            "fontColorAttr" : "none",
+            "dataAttr" : "none",
+            "textColor" : "rgba(255,255,255,1.0)",
+            "borderWidth" : "0",
+            "backgroundColor" : "rgba(255,255,255,0)",
+            "textAlignment" : "NSTextAlignmentCenter",
+            "type" : "UILabel",
+            "alpha" : "1",
+            "fontSize" : "11",
+            "gradientImage" : "none",
+            "fontSizeAttr" : "none",
+            "textStyle" : "none",
+            "kerning" : "0",
+            "borderColor" : "rgba(255,255,255,1)",
+            "data" : "[musicTitle]",
+            "numberOfLines" : "1"
+          },
+          "next" : {
+            "pauseImage" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "323",
+              "width" : "27",
+              "height" : "15"
+            },
+            "isAlbumArt" : "0",
+            "contentMode" : "scaleAspectFit",
+            "maskURL" : "none",
+            "cornerRadius" : "0",
+            "animation" : "none",
+            "imageURL" : "forward.png",
+            "type" : "UIImageView",
+            "actions" : "nextTrack",
+            "imageFolder" : "none"
+          },
+          "musicbg" : {
+            "pauseImage" : "none",
+            "frame" : {
+              "y" : "center",
+              "x" : "8",
+              "width" : "26",
+              "height" : "26"
+            },
+            "isAlbumArt" : "yes",
+            "contentMode" : "scaleAspectFit",
+            "maskURL" : "none",
+            "cornerRadius" : "13",
+            "animation" : "none",
+            "imageURL" : "94.PNG",
+            "type" : "UIImageView",
+            "actions" : "openPlayingMusic",
+            "imageFolder" : "none"
+          },
+          "musicbar_" : {
+            "radius" : "18",
+            "backColor" : "rgba(0, 0, 0, 0.00)",
+            "frame" : {
+              "y" : "center",
+              "x" : "2",
+              "width" : "351",
+              "height" : "37"
+            },
+            "borderWidth" : "0",
+            "borderColor" : "rgba(255,255,255,0)",
+            "type" : "ElapsedBar",
+            "gradientImage" : "none",
+            "innerColor" : "rgba(227, 228, 230, 0.50)"
+          }
+        },
+        "blurAlpha" : "0",
+        "cornerRadius" : "20",
+        "type" : "UIView",
+        "childorder" : "next,musicbg,musict,musicbar_",
+        "rotate" : "0",
+        "blurIntensity" : "10",
+        "alpha" : "1",
+        "scale" : "0",
+        "gradientImage" : "none",
+        "borderColor" : "rgba(179, 180, 190, 1.00)",
+        "actions" : "none",
+        "animation" : {
+          "MusicPlayer" : "{ speed:0.2,height:220,}"
+        },
+        "cutWithView" : "none",
+        "userInteraction" : "YES"
+      }
+    }
+  }
+}
